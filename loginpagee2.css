@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Ensure full viewport height */
+    background-image: url('sultan.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px; /* Adjust width as needed */
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+.container button{
+    background-color: purple;
+    width: calc(100%-4px);
+    color: white;
+    border: 1px solid purple;
+}
+input{
+    border-radius: 8px;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+.container button{
+    width: 300px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    border-radius: 6px;
+}
+a:unvisited{
+    color: purple;
+}
