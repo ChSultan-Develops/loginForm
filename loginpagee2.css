@@ -44,11 +44,12 @@ input{
 }
 .remember{
     display: flex;
-    align-items:center;
+    justify-items:between;
 }
 label{
     text-align: left;
     padding-left: 13px;
+    padding-bottom:13px;
 }
 a:unvisited{
     color: purple;
