@@ -43,6 +43,10 @@ input{
     padding-bottom: 10px;
     border-radius: 6px;
 }
+label{
+    text-align: left;
+    padding-left: 13px;
+}
 a:unvisited{
     color: purple;
 }
