@@ -15,9 +15,19 @@ body {
     border: 2px solid whitesmoke;
     border-radius: 20px;
     padding: 20px;
+  	text-align: center;
     width: 350px; /* Adjust width as needed */
 }
+.input{
+	width: 100%;
+    text-align: left;
+    padding-left: 40px;
+    display:inline-block;
+}
 
+.input input{
+ margin-top: 13px
+}
 .container h1 {
     margin-bottom: 20px;
 }
@@ -26,6 +36,17 @@ body {
     width: calc(100%-4px);
     color: white;
     border: 1px solid purple;
+}
+.remember{
+	display: flex;
+	gap: 23px;
+    width: 100%;
+}
+.remember label{
+	display: flex;
+    text-wrap: nowrap;
+    padding-left: 25px;
+    padding-bottom: 23px
 }
 input{
     border-radius: 8px;
@@ -42,15 +63,19 @@ input{
     padding-bottom: 10px;
     border-radius: 6px;
 }
-.remember{
-    display: flex;
-    justify-items:between;
+
+form{
+	display:flex;
+    flex-direction:column;
+  	justify-content: center;
+    align-items: center;
 }
-label{
-    text-align: left;
-    padding-left: 13px;
-    padding-bottom:13px;
+p{
+
+ width: 90%;
+  text-align: left
 }
+
 a:unvisited{
     color: purple;
 }
